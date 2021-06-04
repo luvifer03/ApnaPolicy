@@ -1,0 +1,154 @@
+/* -----------------------------------------------------------------memberappradmin--------------------- */
+.headmemberapproval {
+	text-align: center;
+	padding-top: 20px;
+	text-shadow: 0cm;
+	color: #20b2aa;
+	font-size: 40px;
+	padding-bottom: 30px;
+}
+
+.blocks {
+	padding-left: 270px;
+	padding-top: 100px;
+}
+
+.container {
+	width: 200px;
+	height: 200px;
+	margin: 60px;
+	float: left;
+	text-align: center;
+	padding-top: 90px;
+}
+
+.rejectbtn {
+	color: #e8eb55;
+}
+
+.table1 {
+	margin-top: 50px;
+	margin-left: 50px;
+}
+
+.bodymemberapproval {
+	min-height: 100vh;
+	background-color: #eef4f7;
+	background-image: linear-gradient(147deg, #eef4f7 0%, #eef4f7 100%);
+}
+
+thead {
+	color: #20b2ee;
+}
+
+.table1 td {
+	text-align: center;
+}
+/* ----------------------------------------------------------------------claimApprovalAdmin */
+.headclaimlist {
+	font-weight: bold;
+	margin-bottom: 40px;
+	padding-top: 40px;
+	color: #20b2aa;
+	text-align: center;
+}
+
+/* .head3 {
+	text-align: center;
+	padding-top: 20px;
+	text-shadow: 0cm;
+	color: #20b2aa;
+	font-size: 40px;
+	padding-bottom: 30px;
+}
+ */
+.blocks {
+	padding-left: 270px;
+	padding-top: 100px;
+}
+
+.container {
+	background-color: #f3a183;
+	width: 200px;
+	height: 200px;
+	margin: 60px;
+	float: left;
+	text-align: center;
+	padding-top: 90px;
+}
+
+.rejectbtn {
+	color: #e8eb55;
+}
+
+.table1 {
+	margin-top: 50px;
+	margin-left: 50px;
+}
+
+.bodyclaimlist {
+	min-height: 100vh;
+	background-color: #eef4f7;
+	background-image: linear-gradient(147deg, #eef4f7 0%, #eef4f7 100%);
+}
+
+.theadclaimlist {
+	color: #20b2aa;
+}
+
+.table1 td {
+	text-align: center;
+}
+
+.footer-basic {
+	position: relative;
+	bottom: 0;
+	width: 100%;
+	text-align: center;
+	overflow: hidden;
+}
+
+.footer-basic .social>a {
+	font-size: 24px;
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	display: inline-block;
+	text-align: center;
+	border-radius: 50%;
+	border: 1px solid #ccc;
+	margin: 0 8px;
+	color: inherit;
+}
+/* ---------------------------------------------------------------------doc upload------------ */
+.headdoc {
+	font-weight: bold;
+	margin-bottom: 40px;
+	padding-top: 40px;
+	color: #20b2aa;
+	text-align: center;
+}
+
+.bu {
+	padding-top: 30px;
+	padding-left: 150px;
+	padding-bottom: 108px;
+}
+
+.registerForm {
+	align-content: center;
+	padding-left: 650px;
+}
+
+.btn {
+	transition-duration: 0.4s;
+	border: 2px solid #008080;
+	margin-left: 10px;
+	margin-top: 0px;
+}
+
+.btn:hover {
+	background-color: #008080; /* Green */
+	color: white;
+}
+

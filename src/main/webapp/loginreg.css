@@ -1,0 +1,80 @@
+.footer-basic {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	text-align: center;
+	overflow: hidden;
+	
+}
+
+        .footer-basic .social>a {
+            font-size: 24px;
+            width: 40px;
+            height: 40px;
+            line-height: 40px;
+            display: inline-block;
+            text-align: center;
+            border-radius: 50%;
+            border: 1px solid #ccc;
+            margin: 0 8px;
+            color: inherit;
+        }
+/*         -------------------------------------------------------------------login-- */
+        .card {
+	padding-top: 100px;
+	padding-bottom: 300px;
+	
+	
+}
+
+#customers tr:nth-child(even){background-color: #f2f2f2 ;}
+
+#customers tr:hover {background-color: #ddd;}
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: centre;
+  background-color:#008080;
+  color: white;
+  
+}
+.btn{
+  transition-duration: 0.4s;
+  border:2px solid #008080;
+}
+.btn:hover {
+  background-color: #008080; /* Green */
+  color: white;
+}
+.card{background-color:#eef4f7}
+/* -------------------------------------------------------------------reg-- */
+.registerForm{
+align-content: center;
+padding-left: 600px;
+padding-top:60px;
+
+
+}
+body{background-color:#eef4f7}
+#customers1 {background-color: #d6d6c2;}
+
+#customers1 tr:hover {background-color: #f2f2f2;}
+
+#customers1 th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: centre;
+  background-color:#008080;
+  color: white;
+  
+}
+#btn1{
+  transition-duration: 0.4s;
+  border:2px solid #008080;
+}
+
+#btn1:hover {
+  background-color: #008080; /* Green */
+  color: white;
+}

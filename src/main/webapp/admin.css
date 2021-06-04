@@ -1,0 +1,157 @@
+.navbar{
+	position:fixed;
+}
+.heading3 {
+	font-weight: bold;
+	margin-bottom: 40px;
+	padding-top: 40px;
+	color: #20b2aa;
+	text-align: center;
+}
+
+.admindash {
+	background: #eef4f7;
+}
+
+.intro1 {
+	font-size: 16px;
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
+div [class^="col-"] {
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.card {
+	transition: 0.5s;
+	cursor: pointer;
+	display: block;
+	border-color: #20b2aa;
+	border-width: medium;
+}
+
+.card-title {
+	font-size: 15px;
+	transition: 1s;
+	cursor: pointer;
+}
+/*.card-title i{  
+  font-size:15px;
+  transition:1s;
+  cursor:pointer;
+  color:#ffa710
+}*/
+.card-title i:hover {
+	transform: scale(1.25) rotate(100deg);
+	color: #18d4ca;
+}
+
+.card:hover {
+	transform: scale(1.05);
+	box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
+}
+
+.card-text {
+	height: 80px;
+}
+
+.card-block {
+	text-align: center;
+	padding-top: 35%;
+	color: #20b2aa;
+	background-color: #fff;
+	display: block;
+	height: 15rem;
+	width: 15rem;
+	margin-left: 50px;
+	background-color: #faebd7;
+}
+
+.card::before, .card::after {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	transform: scale3d(0, 0, 1);
+	transition: transform .3s ease-out 0s;
+	background: rgba(255, 255, 255, 0.1);
+	content: '';
+	pointer-events: none;
+}
+
+.card::before {
+	transform-origin: left top;
+}
+
+.card::after {
+	transform-origin: right bottom;
+}
+
+.card:hover::before, .card:hover::after, .card:focus::before, .card:focus::after
+	{
+	transform: scale3d(1, 1, 1);
+}
+
+.link {
+	font-size: 17px;
+	color: #20b2aa;
+}
+
+.link:hover {
+	color: #20b2aa;
+	font-weight: 502;
+}
+
+.row {
+	justify-content: center;
+	padding-top: 100px;
+	border-color: #20b2aa;
+}
+
+.row h5 a:link {
+	background-color: transparent;
+	color: #20b2aa;
+	text-decoration: none;
+}
+
+/* -------------------------------------------------------------------------------- */
+.headgsdadmin {
+	text-align: center;
+	padding-top: 40px;
+	text-shadow: 0cm;
+	color: #20b2aa;
+	font-size: 40px;
+}
+.bodygsdadmin{
+  min-height: 100vh;
+
+  background-color: #eef4f7;
+  background-image: linear-gradient(147deg, #eef4f7 0%, #eef4f7 100%);
+}
+.theadgsdadmin {
+color : #20b2aa;
+} 
+
+.footer-basic {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	text-align: center;
+	overflow: hidden;
+	
+}
+.footer-basic .social>a {
+	font-size: 24px;
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	display: inline-block;
+	text-align: center;
+	border-radius: 50%;
+	border: 1px solid #ccc;
+	margin: 0 8px;
+	color: inherit;
+}
